@@ -1,0 +1,40 @@
+header {
+    background-color:lightskyblue;
+}
+
+footer {
+    background-color:yellow;
+}
+
+h1 {
+    color:white;
+}
+
+h2 {
+    color:blue;
+}
+
+h3 {
+    background-color: yellow;
+}
+
+h4 {
+    background-color:forestgreen;
+    color:yellow;
+}
+
+h5 {
+    color:red;
+}
+
+.orangetext {
+    color:orange;
+}
+
+.redtext {
+    color:red;
+}
+
+.greenhighlight {
+    background-color:lightgreen;
+}
