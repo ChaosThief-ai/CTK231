@@ -1,0 +1,60 @@
+img {
+    border: 25px solid black;
+    padding:15px 10px 15px 10px;
+    background-color: Yellow; 
+
+}
+
+body {
+    background-image: url(illusion.jpg);
+}
+
+header,main,footer {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header, footer {
+    color:aqua;
+    background-color:yellow;
+}
+
+h1, h2, h3, h4, h5 {
+    color:orange;
+    background-color:red;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.UGLY {
+    color:blue;
+    background-color:darkolivegreen;
+}
+
+p {
+    color:fuchsia;
+    background-color:burlywood;
+}
+
+body {
+    background-color:purple;
+}
+
+a {
+    color:red;
+}
+
+a:visited {
+    color:green;
+}
+
+a:hover {
+    color:yellow;
+}
+
+.center {
+    text-align: center;
+}
+
+.justify {
+    text-align: justify;
+}
