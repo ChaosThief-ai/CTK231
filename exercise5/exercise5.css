@@ -1,0 +1,28 @@
+nav ul {
+    list-style:none;
+    display:flex;
+    margin:0;
+    padding:0;
+    justify-content:space-between;
+}
+
+nav li {
+    width: 500px;
+    margin-bottom:8px;
+}
+
+nav li a {
+    display:block;
+    padding:8px;
+    text-align:center;
+    color:black;
+    border: 3px solid rgb(223, 223, 223);
+    background-color:rgb(240, 240, 240);
+    text-decoration:none;
+    font-weight:bold;
+}
+
+nav li a:hover {
+    border: 3px solid rgb(151, 151, 151);
+    background-color:rgb(207, 207, 207);
+}
