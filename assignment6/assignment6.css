@@ -1,0 +1,113 @@
+body {
+    background-image: url("a62.png");
+}
+
+#wrapper {
+    margin: 1em auto;
+    padding: 0;
+    width: 1200px;
+    background-color:rgb(255, 255, 255);
+    border: solid 3px black;
+    display:grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+header {
+    grid-column: span 12;
+    background-color: black;
+    margin-left:10px;
+    margin-right:10px;
+    margin-top:10px;
+}
+
+header h1 {
+    font-family:Arial, Helvetica, sans-serif;
+    color:white;
+    padding-left:15px;
+    font-weight:normal;
+
+}
+
+nav {
+    grid-column: span 3;
+}
+
+nav ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+nav li {
+    margin-bottom:10px;
+    margin-top:10px;
+    margin-left:10px;
+    margin-right:10px;
+    background-color:red;
+    width:275px;
+}
+
+nav li a {
+    display:block;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
+    font-weight:normal;
+    padding-left:10px;
+    padding-top:10px;
+    padding-bottom:10px;
+
+}
+
+nav li a:hover {
+    background-color:darkred;
+    color:white;
+    text-decoration:none;
+}
+
+a {
+    color:red;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+a:hover {
+    color:blue;
+    text-decoration:underline;
+}
+
+main {
+    grid-column:span 9;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+.imgtext {
+    font-weight:bold;
+    text-align:justify;
+}
+
+main h2 {
+    font-family:Arial, Helvetica, sans-serif;
+    margin-right:10px;
+    margin-top: 10px;
+    padding-bottom:5px;
+    border-bottom: solid 3px black;
+}
+
+.brickimg {
+    padding:10px;
+    border: solid 3px black;
+    float:left;
+    margin-right:10px;
+}
+
+footer {
+    grid-column: span 12;
+    border-top: solid 3px black;
+    background-color:red;
+    color:white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align:center;
+    font-style:italic;
+}
