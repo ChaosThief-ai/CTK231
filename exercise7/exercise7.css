@@ -1,0 +1,106 @@
+#wrapper {
+    margin: 1em auto;
+    padding:0;
+    width: 1200px;
+    display:grid;
+    grid-template-columns: repeat(12, 1fr);
+    border: solid 3px black;
+    background-color:white;
+}
+
+body {
+    background-image: url(tile.png);
+}
+
+header {
+    grid-column: span 12;
+    background-color:lightskyblue;
+    border-bottom: solid 3px black;
+    padding-left:1em;
+}
+
+header h1 {
+    font-weight:normal;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+nav {
+    grid-column:span 12;
+}
+
+nav ul {
+    padding:0px;
+    margin:0px;
+    list-style:none;
+}
+
+nav li {
+display:inline-block;
+text-align:center;
+margin:1em;
+
+}
+
+.mainimg {
+    float:right;
+}
+
+main {
+    grid-column: span 8;
+    padding:1em;
+}
+
+main h2 {
+    margin-top:0px;
+}
+
+aside {
+    grid-column: span 4;
+    background-color:lightskyblue;
+    padding:1em;
+    margin-right:1em;
+    margin-bottom:1em;
+    color:white;
+}
+
+aside h2 {
+    margin-top:0px;
+    color:white;
+}
+
+a {
+    font-weight:bold;
+    color:forestgreen;
+    text-decoration:none;
+}
+
+a:hover {
+    font-weight:bold;
+    color:blue;
+    text-decoration:underline;
+}
+
+nav li a {
+    background-color: forestgreen;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding:15px;
+    display:block;
+    width: 200px;
+
+    outline: solid 3px black;
+}
+
+.italic {
+    font-style:italic;
+}
+
+footer {
+    grid-column:span 12;
+    background-color:lightskyblue;
+    border-top: solid 3px black;
+    padding-left:1em;
+    font-weight:bold;
+    font-family:Arial, Helvetica, sans-serif;
+}
