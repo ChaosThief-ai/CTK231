@@ -1,0 +1,145 @@
+body {
+    background-color:rgb(160, 160, 160);
+}
+
+#wrapper {
+    margin: 1em auto;
+    padding: 0;
+    width: 1200px;
+    background-color:rgb(255, 255, 255);
+    border: solid 6px navy;
+    display:grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+header {
+    grid-column: span 12;
+    background-image: linear-gradient(to bottom, #0069db, #0051c5, #003aaf, #002198, #000080);
+}
+
+header a {
+    margin:25px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgb(115, 166, 255);
+    font-style:italic;
+    font-weight:normal;
+    text-decoration:none;
+}
+
+header a:hover {
+    font-family:Arial, Helvetica, sans-serif;
+    color:white;
+    font-style:italic;
+    font-weight:normal;
+    text-decoration:none;
+}
+
+nav {
+    grid-column: span 12;
+    /* background-color: navy; */
+    background-image: linear-gradient(to bottom, #0069db, #0051c5, #003aaf, #002198, #000080);
+
+}
+
+nav ul {
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+
+nav ul li {
+    display:inline-block;
+}
+
+nav li a {
+    color:rgb(115, 166, 255);
+    display:block;
+    background-image: linear-gradient(to bottom, #0069db, #0051c5, #003aaf, #002198, #000080);
+    padding:10px;
+    padding-left:15px;
+    margin-bottom:5px;
+    width:280px;
+    border-right: solid 5px navy;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+nav li a:hover {
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    text-decoration:underline;
+    background-image: linear-gradient(to bottom, #469dfc, #097df0, #005de1, #0039cd, #0000b4);
+}
+
+#trisplit {
+    grid-column: span 4;
+    margin-left:15px;
+}
+
+.centerimg {
+    margin-left:20px;
+}
+
+aside {
+    grid-column: span 4;
+    background-color:rgb(152, 207, 255);
+    padding-left:15px;
+    padding-right:15px;
+}
+
+aside p {
+    text-align:justify;
+    font-weight:bold;
+}
+
+h2 {
+    font-family:Arial, Helvetica, sans-serif;
+    color:navy;
+    font-weight:normal;
+    border-bottom: solid 3px navy;
+}
+
+.homeimg {
+float:left;
+border: solid 3px navy;
+margin-right:15px;
+margin-bottom:15px;
+}
+
+.aboutimg {
+float:right;
+border: solid 3px navy;
+margin-left:15px;
+margin-bottom:15px;
+}
+
+p a {
+    color:red;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+p a:hover {
+    color:#097df0;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+.active {
+    color:white;
+}
+
+main {
+    grid-column: span 8;
+    padding-left:15px;
+    padding-right:15px;
+}
+
+footer {
+    grid-column: span 12;
+    border-top: solid 6px navy;
+    background-color:red;
+    padding:15px;
+}
