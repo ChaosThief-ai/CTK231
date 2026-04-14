@@ -1,0 +1,154 @@
+/*EVERYTHING WHITE WILL USE THE MASK FUNCTIONALITY WHEN IMPLEMENTED*/
+
+body {
+  background-color: #0a0017;
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  border: 5px solid #0C001B; /* PLACEHOLDER */
+  background-color: white;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  height:auto;
+}
+
+
+header {
+  text-transform:capitalize;
+  grid-column: span 12;
+  background-color:#15002E;
+  color: #8E8BDD;
+  padding: 5px 32px;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header img {
+  float: right;
+  /* home image */
+}
+
+nav {
+  grid-column: span 12;
+  background-color:#15002E;
+}
+
+nav ul{
+  margin:0px;
+  padding:0px;
+  list-style:none;
+}
+
+nav ul li {
+display:inline-block;
+}
+
+nav li a {
+  display:block;
+  background-color:white; /*PLACEHOLDER*/
+  font-family:'Times New Roman', Times, serif;
+  width:150px;
+  margin:0px 6px;
+  padding: 12px 20px;
+  text-decoration:none;
+  text-align:center;
+  font-weight:bold;
+  font-size:24px;
+  border-radius: 7px 7px 0px 0px;
+}
+
+.option1 {
+    background-color:#71C99A;
+    color:#062313;
+    margin-left: 12px;
+}
+
+.option1:hover {
+    background-color:#417459;
+    color:#ffffff; /*Does not use mask*/
+    margin-left: 12px;
+}
+
+.option2 {
+    background-color:#84C971;
+    color:#172B18;
+}
+
+.option2:hover {
+    background-color:#507945;
+    color:#ffffff; /*Does not use mask*/
+}
+
+.option3 {
+    background-color:#AAC971;
+    color:#242B17;
+}
+
+.option3:hover {
+    background-color:#647642;
+    color:#ffffff; /*Does not use mask*/
+}
+
+.option4 {
+    background-color:#C8C971;
+    color:#282B17;
+}
+
+.option4:hover {
+    background-color:#7b7c46;
+    color:#ffffff; /*Does not use mask*/
+}
+
+.option5 {
+    background-color:#C9A171;
+    color:#2B2817;
+}
+
+.option5:hover {
+    background-color:#826849;
+    color:#ffffff; /*Does not use mask*/
+}
+
+h2, h3, h4 {
+  font-family: "Coral Pixels", serif;
+  color:black;
+  font-weight:normal;
+}
+
+main {
+  grid-column:span 12;
+  padding-left: 32px;
+  padding-right:16px;
+}
+
+main h2 {
+  font-size:36px;
+  margin: 20px 0px;
+}
+
+main p {
+  font-family: "Coral Pixels", serif;
+  color:black;
+  font-size:18px;
+}
+
+.center {
+  text-align:center;
+}
+
+.emphasis {
+  font-weight:bold;
+  font-style:italic;
+}
+
+.indented {
+    text-indent:3em;
+}
+
+aside img {
+  float:right;
+  margin-left:12px;
+  margin-bottom:12px;
+}
+
